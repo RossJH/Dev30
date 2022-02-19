@@ -1,12 +1,3 @@
-// addition 
-
-// subtraction
-
-// multiplication
-
-// division
-
-// remainder
 
 var someName = 'bob';
 var food = 'burgers';
@@ -20,9 +11,7 @@ var num2 = 3453;
 
 console.log(Math.min(num1, num2));
 
-
-
-
+// --------------------------------------------------- // 
 
 // min
 var num1 = 342;
@@ -49,7 +38,7 @@ Math.round(3.44); // 3
 Math.floor(Math.random() * 100); // Random number between 0 and 100
 
 
-
+// --------------------------------------------------- // 
 
 // toUpperCase
 'aaron'.toUpperCase(); // 'AARON'
@@ -65,6 +54,12 @@ const sentence = 'The quick brown bear jumps over the lazy dog.';
 const word = 'fox';
 
 console.log(sentence.includes(word)); // true
+
+
+
+
+// KELVIN WEATHER PROJECT // 
+// --------------------------------------------------- // 
 
 
 // 1. Kelvin weather prediction.
@@ -85,6 +80,8 @@ console.log(Math.floor(Fahrenheit));
 console.log(`The temprature is ${Math.floor(Fahrenheit)} degrees Fahrenheit.`);
 
 
+
+// ---------------------------------------------//
 // Additional calculations in Newton.
 Newton = Celcius * (33 / 100);
 console.log(Newton);
