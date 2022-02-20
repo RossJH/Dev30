@@ -20,12 +20,12 @@ laterYears *= 4;
 console.log(laterYears);
 
 // Final variable that shows my age in dog years. 
-var myAgeInDogYears = earlyYears + laterYears;
+const myAgeInDogYears = earlyYears + laterYears;
 console.log(earlyYears + laterYears);
 console.log(myAgeInDogYears);
 
 
-var myName = 'Ross'
+const myName = 'Ross'
 console.log(myName.toLowerCase());
 
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
