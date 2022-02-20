@@ -70,24 +70,24 @@ const Celcius = kelvin - 273;
 console.log(Celcius);
 
 // 5. Calculate Farenheight using math. 
-var Fahrenheit = Celcius * (9 / 5) + 32;
+var Fahrenheit = Math.floor(Celcius * (9 / 5) + 32);
 console.log(Fahrenheit);
 
 // 7. Rounding down Farenheit decimal.
-console.log(Math.floor(Fahrenheit));
+console.log(Fahrenheit);
 
 // 9. Logging the temperature. 
-console.log(`The temprature is ${Math.floor(Fahrenheit)} degrees Fahrenheit.`);
+console.log(`The temprature is ${Fahrenheit} degrees Fahrenheit.`);
 
 
 
 // ---------------------------------------------//
 // Additional calculations in Newton.
-Newton = Celcius * (33 / 100);
+Newton = Math.floor(Celcius * (33 / 100));
 console.log(Newton);
 
 // Rounding down Newton decimal.
-console.log(Math.floor(Newton))
+console.log(Newton);
 
 // Providing Sydney with Kelvin's Newton weather update. 
-console.log(`The Newton temperature today in Sydney is ${Math.floor(Newton)}`)
+console.log(`The Newton temperature today in Sydney is ${Newton}`)
