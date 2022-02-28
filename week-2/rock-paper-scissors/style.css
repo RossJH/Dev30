@@ -1,0 +1,60 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  background: #e2e8ef;
+  color: black;
+  margin: 3em;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: #e2e8ef;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 7px rgba(94, 104, 121, 0.945);
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+button:active {
+  background: #fff;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 0px solid black;
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 7px rgba(94, 104, 121, 0.945);
+  border-radius: 15px;
+}
+.scoreboard h2 {
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th,
+.scoreboard td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
