@@ -8,6 +8,11 @@ document.getElementById('rock').onclick = playRock;
 document.getElementById('paper').onclick = playPaper;
 document.getElementById('scissors').onclick = playScissors;
 
+document.getElementById('gameReset').onclick = reload;
+
+function reload() {
+    window.location.reload();
+}
 //User choices
 function playRock() {
   getUserChoice("rock");
@@ -63,7 +68,6 @@ function getUserChoice(userChoice) {
   //Assigns values to the scoreboard. 
   document.getElementById('humanScore').innerHTML = humanScore;
   document.getElementById('computerScore').innerHTML = computerScore;
-  
 }
 
 // Gets computer choice randomly and assigns it to the 3 options. 
